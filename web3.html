@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnly — Online Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#">learnly<span>.</span></a>
+
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#instructors">Instructors</a>
+      <a href="#my-learning">My learning</a>
+    </nav>
+
+    <a class="profile" href="#my-learning">👤 Alex Morgan</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Learn something new today</p>
+        <h1>Small steps.<br><span>Big possibilities.</span></h1>
+        <p>Build practical skills with expert-led courses designed to help you reach your goals.</p>
+        <a class="button" href="#courses">Explore courses →</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">✦</div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Find your next skill</p>
+          <h2>Browse categories</h2>
+        </div>
+        <a href="#all-courses" class="text-link">All courses →</a>
+      </div>
+
+      <div class="category-list">
+        <a class="category active" href="#all-courses">✦ All courses</a>
+        <a class="category" href="#all-courses">⌘ Design</a>
+        <a class="category" href="#all-courses">⌁ Development</a>
+        <a class="category" href="#all-courses">◈ Business</a>
+        <a class="category" href="#all-courses">◎ Marketing</a>
+      </div>
+
+      <div class="section-heading course-heading" id="all-courses">
+        <div>
+          <p class="eyebrow">Picked for you</p>
+          <h2>Popular courses</h2>
+        </div>
+        <span class="muted">Showing 3 courses</span>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <a class="thumbnail thumb-design" href="#course-design" aria-label="Open UI design course">
+            <span class="play">▶</span>
+            <span class="duration">12h 40m</span>
+            <span class="thumb-label">DESIGN<br>THINKING</span>
+          </a>
+          <div class="course-info">
+            <span class="tag">Design</span>
+            <h3 id="course-design">UI Design Essentials: From Idea to Interface</h3>
+            <p class="description">Learn layout, color, and prototyping as you design your first polished app screen.</p>
+            <div class="instructor">
+              <div class="avatar avatar-one">SC</div>
+              <span>Sarah Chen<small>Product designer</small></span>
+              <span class="rating">★ 4.9</span>
+            </div>
+            <div class="course-meta"><span>18 lessons</span><span>Beginner</span></div>
+            <div class="progress-label"><span>Your progress</span><strong>65%</strong></div>
+            <div class="progress"><span style="width:65%"></span></div>
+            <a class="enroll" href="#my-learning">Continue learning →</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <a class="thumbnail thumb-code" href="#course-code" aria-label="Open web development course">
+            <span class="play">▶</span>
+            <span class="duration">9h 15m</span>
+            <span class="thumb-label code-label">&lt;build<br>something/&gt;</span>
+          </a>
+          <div class="course-info">
+            <span class="tag tag-blue">Development</span>
+            <h3 id="course-code">Modern Web Development with HTML & CSS</h3>
+            <p class="description">Create responsive web pages and bring your ideas to life with clean code.</p>
+            <div class="instructor">
+              <div class="avatar avatar-two">JM</div>
+              <span>Jordan Miller<small>Web developer</small></span>
+              <span class="rating">★ 4.8</span>
+            </div>
+            <div class="course-meta"><span>24 lessons</span><span>Beginner</span></div>
+            <div class="progress-label"><span>Your progress</span><strong>30%</strong></div>
+            <div class="progress"><span style="width:30%"></span></div>
+            <a class="enroll" href="#my-learning">Continue learning →</a>
+          </div>
+        </article>
+
+        <article class="course-card">
+          <a class="thumbnail thumb-business" href="#course-business" aria-label="Open business course">
+            <span class="play">▶</span>
+            <span class="duration">7h 50m</span>
+            <span class="thumb-label business-label">MAKE<br>IT HAPPEN</span>
+          </a>
+          <div class="course-info">
+            <span class="tag tag-orange">Business</span>
+            <h3 id="course-business">The Creative Entrepreneur’s Playbook</h3>
+            <p class="description">Turn a promising idea into a focused plan and grow your small business.</p>
+            <div class="instructor">
+              <div class="avatar avatar-three">AP</div>
+              <span>Amara Patel<small>Startup mentor</small></span>
+              <span class="rating">★ 5.0</span>
+            </div>
+            <div class="course-meta"><span>16 lessons</span><span>Intermediate</span></div>
+            <div class="progress-label"><span>Your progress</span><strong>0%</strong></div>
+            <div class="progress"><span style="width:0%"></span></div>
+            <a class="enroll" href="#my-learning">Enroll in course →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="learning-section" id="my-learning">
+      <div>
+        <p class="eyebrow">Keep your momentum</p>
+        <h2>Your learning journey is in progress.</h2>
+        <p>You’ve completed 8 lessons this week. Keep going—you’re building great habits.</p>
+      </div>
+      <a class="button button-light" href="#courses">Go to my learning →</a>
+    </section>
+
+    <section class="section instructors" id="instructors">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Learn from the best</p>
+          <h2>Meet your instructors</h2>
+        </div>
+      </div>
+      <div class="instructor-row">
+        <div class="instructor-profile"><div class="avatar avatar-one">SC</div><div><strong>Sarah Chen</strong><span>Product designer · 12 courses</span></div></div>
+        <div class="instructor-profile"><div class="avatar avatar-two">JM</div><div><strong>Jordan Miller</strong><span>Web developer · 8 courses</span></div></div>
+        <div class="instructor-profile"><div class="avatar avatar-three">AP</div><div><strong>Amara Patel</strong><span>Startup mentor · 6 courses</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">learnly<span>.</span></a>
+    <p>Learn at your own pace. Keep growing.</p>
+  </footer>
+
+</body>
+</html>
